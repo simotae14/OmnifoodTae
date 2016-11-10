@@ -59,11 +59,51 @@
               </a>
             </li>
             <li class="changeLang">
-              <span class="active-IT">IT</span> | <span  class="active-EN">EN</span>
+              <span class="active-IT" onclick="attivaITA()">IT</span> | <span  class="active-EN"  onclick="attivaENG()">EN</span>
             </li>
           </ul>
+          <span class="nav-mobile" onclick="openNav()"><i class="ion-navicon"></i></span>
+          <div class="changeLang"><span class="active-IT" onclick="attivaITA()">IT</span> | <span class="active-EN"  onclick="attivaENG()">EN</span></div>
+          
         </div>
-      </nav>
+        </nav>
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="#" onclick="closeNav()">
+              <span class="eng">
+                Food delivery
+              </span>
+              <span class="ita">
+                Consegna
+              </span>
+            </a>
+            <a href="#" onclick="closeNav()">
+              <span class="eng">
+                How it works
+              </span>
+              <span class="ita">
+                Come funziona
+              </span>
+            </a>
+            <a href="#" onclick="closeNav()">
+              <span class="eng">
+                Our cities
+              </span>
+              <span class="ita">
+                Dove siamo
+              </span>
+            </a>
+            <a href="#" onclick="closeNav()">
+              <span class="eng">
+                Sign up
+              </span>
+              <span class="ita">
+                Registrati
+              </span>
+            </a>
+          </div>
+        </div>
       <div class="hero-text-box">
         <h1>
           <span class="eng">
@@ -574,7 +614,7 @@
                     1 meal 10 days/month
                   </span>
                   <span class="ita">
-                    1 pasto per 10 giorni/mese
+                    10 pasti al mese
                   </span>
                 </li>
                 <li>
@@ -865,7 +905,8 @@
         </p>
       </div>
     </footer>
-    
     <script src="resources/js/changeLang.js"></script>
+    <script src="resources/js/openMobileNav.js"></script>
+    
   </body>
 </html>

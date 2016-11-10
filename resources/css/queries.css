@@ -22,13 +22,83 @@
     width: 80%;
     margin-left: 10%;
   }
+  
+  .steps-box { margin-top: 10px; }
+  .steps-box:last-child { margin-top: 10px; }
+  
+  .works-step { margin-bottom: 40px; }
+  
+  .works-step:last-of-type { margin-bottom: 60px; }
+  
+  .app-screen { width: 50%; }
+  
+  .icon-small { 
+    width: 17px; 
+    margin-right: 3px;
+  }
+  
+  .city-feature { font-size: 90%; }
+  
+  .plan-box {
+    width: 100%;
+    margin-left: 0%;
+  }
+  
+  .plan-price { font-size: 250%; }
+  
+  .contact-form { width: 80%; }
 }
 
 
 /* Small phones to small tablets: from 481px to 767px */
 
 @media only screen and (max-width: 767px) {
+  .eng { display: none; }
+
+  .ita { display: inline; }
   
+  div > .changeLang {
+    display: inline-block;
+    float: right;
+    color: #fff;
+    font-size: 200%;
+    margin-top: 48px;
+    margin-right: 20px;
+    transition: color 0.2s;
+  }
+  div > .changeLang span {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+  }
+  div > .changeLang span:hover {
+    border-bottom: 2px solid #e67e22;
+    cursor: pointer;
+  }
+  
+  .hero-text-box {
+    margin-top: 45px;
+  }
+  .nav-mobile {
+    display: inline-block;
+    float: right;
+    color: #fff;
+    font-size: 300%;
+    margin-top: 40px;
+    transition: color 0.2s;
+  }
+  
+  .nav-mobile:hover {
+    color: #e67e22;
+  }
+  
+  .main-nav {
+    display: none;
+  }
 }
 
 /* Small phones: from 0 to 480px */
