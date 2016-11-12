@@ -78,6 +78,7 @@
     font-size: 200%;
     margin-top: 48px;
     margin-right: 20px;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
   }
   div > .changeLang span {
@@ -87,6 +88,7 @@
     text-transform: uppercase;
     font-size: 90%;
     border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
   }
   div > .changeLang span:hover {
@@ -103,6 +105,7 @@
     color: #fff;
     font-size: 300%;
     margin-top: 40px;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
   }
   

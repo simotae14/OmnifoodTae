@@ -1,20 +1,10 @@
-var spanITA = document.querySelectorAll(".ita");
-var spanEN = document.querySelectorAll(".eng");
-
-function attivaITA(){
-  spanITA.forEach(function(el) {
-      el.style.display = 'inline';
+$(document).ready(function () {
+  $('.active-IT').click(function () {
+    $('.ita').css('display', 'inline');
+    $('.eng').css('display', 'none');
   });
-  spanEN.forEach(function(el) {
-      el.style.display = 'none';
+  $('.active-EN').click(function () {
+    $('.eng').css('display', 'inline');
+    $('.ita').css('display', 'none');
   });
-}
-
-function attivaENG(){
-  spanEN.forEach(function(el) {
-      el.style.display = 'inline';
-  });
-  spanITA.forEach(function(el) {
-      el.style.display = 'none';
-  });
-}
+});
