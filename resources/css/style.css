@@ -215,6 +215,16 @@ header {
   margin-top: 20px;
 }
 
+.logo-black { 
+  height: 50px;
+  width: auto;
+  float: left;
+  margin: 5px 0;
+  display: none; 
+}
+
+/** Main Nav **/
+
 .main-nav {
   float: right;
   list-style: none;
@@ -252,6 +262,31 @@ header {
 .nav-mobile, div > .changeLang {
   display: none;
 }
+
+/** Sticky Nav **/
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 2px 2px #efefef;
+}
+
+.sticky .main-nav li.changeLang { color: #555; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited,
+.sticky .main-nav li.changeLang span {
+  padding: 16px 0;
+  color: #555;
+}
+
+.sticky .logo { display: none; }
+.sticky .logo-black { display: block; }
+
+.main-nav { margin-top: 18px; }
+
 
 /* The Overlay (background) */
 .overlay {

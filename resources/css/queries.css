@@ -109,6 +109,18 @@
     transition: color 0.2s;
   }
   
+  .sticky div > .changeLang {
+    padding: 8px 0;
+    color: #555;
+    margin-top: 3px;
+  }
+  .sticky div > .changeLang span { color: #555; }
+  
+  .sticky .nav-mobile {
+    color: #555;
+    margin-top: 2px;
+  }
+  
   .nav-mobile:hover {
     color: #e67e22;
   }
