@@ -59,4 +59,21 @@ $(document).ready(function () {
     offset: '50%'
   });
   
+  /* Maps */
+  var map = new GMaps({
+    div: '.map',
+    lat: 45.6098934,
+    lng: 9.2055871,
+    zoom: 12
+  })
+  
+  map.addMarker({
+    lat: 45.6098934,
+    lng: 9.2455871,
+    title: 'Lissone',
+    infoWindow: {
+      content: '<p>La nostra filiale di Lissone</p>'
+    }
+  });
+
 });
