@@ -31,16 +31,6 @@
     // Invia l'email.
     mail($recipient, $subject, $email_content, $email_headers);
     
-
-    // manda mail ringraziamento al mittente
-    $email_content = "Grazie $name Per averci scritto.\n";
-    $email_content .= "Ti ricontatteremo presto con le nostre offerte future\n\nApresto\n OmnifoodTae";
-    $recipient = $email;
-    $subject = "Grazie $name da OmnifoodTae";
-    $email_headers = "From: OmnifoodTae <startae14@gmail.com>";
-    // Invia l'email.
-    mail($recipient, $subject, $email_content, $email_headers);
-    
     // Redireziona alla pagina index.html con un codice di success
     header("Location: https://omnifoodtae.herokuapp.com/index.php?success=1#form");
 
