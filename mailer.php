@@ -9,7 +9,7 @@
     // Controllo i dati.
     if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
         // specifico la redirezione e il codice d'errore
-        header("Location: http://www.webdesigncourse.co/omnifood/index.php?success=-1#form");
+        header("Location: https://omnifoodtae.herokuapp.com/index.php?success=-1#form");
         // ed usciamo dallo script
         exit;
     }
@@ -42,6 +42,6 @@
     mail($recipient, $subject, $email_content, $email_headers);
     
     // Redireziona alla pagina index.html con un codice di success
-    header("Location: http://www.webdesigncourse.co/omnifood/index.php?success=1#form");
+    header("Location: https://omnifoodtae.herokuapp.com/index.php?success=1#form");
 
 ?>
