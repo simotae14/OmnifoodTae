@@ -933,7 +933,7 @@
     <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
     <script src="assets/js/jquery.waypoints.min.js"></script>
-    <script src="https://maps.google.com/maps/api/js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCw9_Q1Az6DghnNDzubNgM07ZwfQcF4MI8"></script>
     <script src="resources/js/changeLang-min.js"></script>
     <script src="resources/js/openMobileNav-min.js"></script>
     <script src="resources/js/script-min.js"></script>
