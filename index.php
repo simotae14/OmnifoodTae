@@ -765,7 +765,7 @@
             
             <div class="row">
               <div class="col span-1-of-3">
-                <label>
+                <label for="name">
                   <span class="eng">
                     Name
                   </span>
@@ -775,13 +775,13 @@
                 </label>
               </div>
               <div class="col span-2-of-3">
-                <input class="eng" type="text" name="name" placeholder="Your Name" required>
-                <input class="ita" type="text" name="name" placeholder="Il Tuo Nome" required>
+                <input id="name" class="eng" type="text" name="name" placeholder="Your Name" required>
+                <input id="name" class="ita" type="text" name="name" placeholder="Il Tuo Nome" required>
               </div>
             </div>
             <div class="row">
               <div class="col span-1-of-3">
-                <label>
+                <label for="email">
                   <span class="eng">
                     Email
                   </span>
@@ -791,8 +791,8 @@
                 </label>
               </div>
               <div class="col span-2-of-3">
-                <input class="eng" type="email" name="email" placeholder="Your Email" required>
-                <input class="ita" type="email" name="email" placeholder="La Tua Email" required>
+                <input id="email" class="eng" type="email" name="email" placeholder="Your Email" required>
+                <input id="email" class="ita" type="email" name="email" placeholder="La Tua Email" required>
               </div>
             </div>
             <div class="row">
@@ -823,7 +823,7 @@
             </div>
             <div class="row">
               <div class="col span-1-of-3">
-                <label>
+                <label for="news">
                   <span class="eng">
                     Newsletter
                   </span>
@@ -840,7 +840,7 @@
             </div>
             <div class="row">
               <div class="col span-1-of-3">
-                <label>
+                <label for="message">
                   <span class="eng">
                     Drop us a line
                   </span>
@@ -850,8 +850,8 @@
                 </label>
               </div>
               <div class="col span-2-of-3">
-                <textarea class="eng" name="message" placeholder="Your message"></textarea>
-                <textarea class="ita" name="message" placeholder="Il Tuo messaggio"></textarea>
+                <textarea id="message" class="eng" name="message" placeholder="Your message"></textarea>
+                <textarea id="message" class="ita" name="message" placeholder="Il Tuo messaggio"></textarea>
               </div>
             </div>
             <div class="row">
