@@ -15,7 +15,7 @@
     }
 
     // Impostare l'indirizzo di posta elettronica del destinatario. Aggiornalo col TUO indirizzo desiderato.
-    $recipient = "startae14@gmail.com";
+    $recipient = "simone.taeggi@cerved.com";
 
     // Imposta l'oggetto della email.
     $subject = "New contact from $name";
