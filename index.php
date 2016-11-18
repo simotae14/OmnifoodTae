@@ -751,10 +751,9 @@
           </h2>
         </div>
         <div class="row">
-          <form method="post" action="" class="contact-form">
+          <form method="post" action="mailer.php" class="contact-form">
             <div class="row">
-              <?php
-                if($_GET['success'] == 1) {
+              <?php if($_GET['success'] == 1) {
                   echo "<div class=\"form-messages success\"><span class=\"eng\">Thank you! Your message has been sent.</span>         <span class=\"ita\">Grazie! Il tuo messaggio è stato spedito.</span></div>";
                 }
                 if($_GET['success'] == -1) {
