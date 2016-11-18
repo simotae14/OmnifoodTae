@@ -755,10 +755,10 @@
             <div class="row">
               <?php
                 if($_GET['success'] == 1) {
-                  echo "<div class=\"form-messages success\"><span class=\"eng\">Thank you! Your message has been sent.</span>         <span class=\"ita\">Grazie! Il tuo messaggio è stato spedito.</span></div>"
+                  echo "<div class=\"form-messages success\"><span class=\"eng\">Thank you! Your message has been sent.</span>         <span class=\"ita\">Grazie! Il tuo messaggio è stato spedito.</span></div>";
                 }
                 if($_GET['success'] == -1) {
-                  echo "<div class=\"form-messages error\"><span class=\"eng\">Oops! Something went wrong. Please try again!</span>         <span class=\"ita\">Ops! Hai commesso qualche errore. Riprova di nuovo!</span></div>"
+                  echo "<div class=\"form-messages error\"><span class=\"eng\">Oops! Something went wrong. Please try again!</span>         <span class=\"ita\">Ops! Hai commesso qualche errore. Riprova di nuovo!</span></div>";
                 }
               ?>
             </div>
