@@ -859,10 +859,7 @@
                 <label>&nbsp;</label>
               </div>
               <div class="col span-2-of-3">
-                <button type="submit" value="Send it!" name="submit">
-                  <span class="eng">Send it!</span>
-                  <span class="ita">Invia!</span>
-                </button>
+                <input type="submit" value="Send it!" name="submit">
               </div>
             </div>
 
