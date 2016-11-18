@@ -775,8 +775,8 @@
                 </label>
               </div>
               <div class="col span-2-of-3">
-                <input id="name" class="eng" type="text" name="name" placeholder="Your Name" required>
-                <input id="name" class="ita" type="text" name="name" placeholder="Il Tuo Nome" required>
+                <input id="name" class="eng" type="text" name="name" placeholder="Your Name">
+                <input id="name" class="ita" type="text" name="name" placeholder="Il Tuo Nome">
               </div>
             </div>
             <div class="row">
@@ -791,8 +791,8 @@
                 </label>
               </div>
               <div class="col span-2-of-3">
-                <input id="email" class="eng" type="email" name="email" placeholder="Your Email" required>
-                <input id="email" class="ita" type="email" name="email" placeholder="La Tua Email" required>
+                <input id="email" class="eng" type="email" name="email" placeholder="Your Email">
+                <input id="email" class="ita" type="email" name="email" placeholder="La Tua Email">
               </div>
             </div>
             <div class="row">
