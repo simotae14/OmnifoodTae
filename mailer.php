@@ -9,13 +9,13 @@
     // Controllo i dati.
     if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
         // specifico la redirezione e il codice d'errore
-        header("Location: https://omnifoodtae.herokuapp.com/index.php?success=-1#form");
+        header("Location: http://omnifood.startae14.dx.am/index.php?success=-1#form");
         // ed usciamo dallo script
         exit;
     }
 
     // Impostare l'indirizzo di posta elettronica del destinatario. Aggiornalo col TUO indirizzo desiderato.
-    $recipient = "startae14@gmail.com";
+    $to = "info@omnifood.startae14.dx.am";
 
     // Imposta l'oggetto della email.
     $subject = "New contact from $name";
@@ -26,12 +26,14 @@
     $email_content .= "Message:\n$message\n";
 
     // Creo l'header della email.
-    $email_headers = "From: $name <$email>";
-
+    $mail_headers = "From: " .  $name . " <" .  $email . ">\r\n";
+    $mail_headers .= "Reply-To: " .  $email . "\r\n";
+    $mail_headers .= "X-Mailer: PHP/" . phpversion();
+    
     // Invia l'email.
-    mail($recipient, $subject, $email_content, $email_headers);
+    mail($to, $subject, $email_content, $email_headers);
     
     // Redireziona alla pagina index.html con un codice di success
-    header("Location: https://omnifoodtae.herokuapp.com/index.php?success=1#form");
+    header("Location: http://omnifood.startae14.dx.am/index.php?success=1#form");
 
 ?>

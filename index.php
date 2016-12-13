@@ -765,92 +765,67 @@
             <div class="row">
               <div class="col span-1-of-3">
                 <label for="name">
-                  <span class="eng">
+                  <span>
                     Name
-                  </span>
-                  <span class="ita">
-                    Nome
                   </span>
                 </label>
               </div>
               <div class="col span-2-of-3">
-                <input id="name" class="eng" type="text" name="name" placeholder="Your Name">
-                <input id="name" class="ita" type="text" name="name" placeholder="Il Tuo Nome">
+                <input id="name" type="text" name="name" placeholder="Your Name">
               </div>
             </div>
             <div class="row">
               <div class="col span-1-of-3">
                 <label for="email">
-                  <span class="eng">
-                    Email
-                  </span>
-                  <span class="ita">
+                  <span>
                     Email
                   </span>
                 </label>
               </div>
               <div class="col span-2-of-3">
-                <input id="email" class="eng" type="email" name="email" placeholder="Your Email">
-                <input id="email" class="ita" type="email" name="email" placeholder="La Tua Email">
+                <input id="email" type="email" name="email" placeholder="Your Email">
               </div>
             </div>
             <div class="row">
               <div class="col span-1-of-3">
                 <label>
-                  <span class="eng">
+                  <span>
                     How did you find us?
-                  </span>
-                  <span class="ita">
-                    Come ci hai trovati?
                   </span>
                 </label>
               </div>
               <div class="col span-2-of-3">
-                <select class="eng" name="find-us">
+                <select name="find-us">
                   <option value="friends" selected>Friends</option>
                   <option value="search">Search engine</option>
                   <option value="ad">Advertisment</option>
                   <option value="other">Other</option>
-                </select>
-                <select class="ita" name="find-us">
-                  <option value="friends" selected>Amici</option>
-                  <option value="search">Motore di Ricerca</option>
-                  <option value="ad">Pubblicità</option>
-                  <option value="other">Altro</option>
                 </select>
               </div>
             </div>
             <div class="row">
               <div class="col span-1-of-3">
                 <label for="news">
-                  <span class="eng">
-                    Newsletter
-                  </span>
-                  <span class="ita">
+                  <span>
                     Newsletter
                   </span>
                 </label>
               </div>
               <div class="col span-2-of-3">
                 <input type="checkbox" name="news" id="news" checked>
-                <span class="eng"> Yes, please</span>
-                <span class="ita"> Sì, grazie</span>
+                <span> Yes, please</span>
               </div>
             </div>
             <div class="row">
               <div class="col span-1-of-3">
                 <label for="message">
-                  <span class="eng">
+                  <span>
                     Drop us a line
-                  </span>
-                  <span class="ita">
-                    Mandaci un messaggio
                   </span>
                 </label>
               </div>
               <div class="col span-2-of-3">
-                <textarea id="message" class="eng" name="message" placeholder="Your message"></textarea>
-                <textarea id="message" class="ita" name="message" placeholder="Il Tuo messaggio"></textarea>
+                <textarea id="message" name="message" placeholder="Your message"></textarea>
               </div>
             </div>
             <div class="row">
