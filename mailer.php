@@ -10,13 +10,13 @@
     if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
         // specifico la redirezione e il codice d'errore
-        header("Location: http://omnifood.startae14.dx.am/index.php?success=-1#form");
+        header("Location: http://startae14.gq/omnifood/index.php?success=-1#form");
         // ed usciamo dallo script
         exit;
     }
 
     // Impostare l'indirizzo di posta elettronica del destinatario. Aggiornalo col TUO indirizzo desiderato.
-    $to = "info@omnifood.startae14.dx.am";
+    $to = "info@startae14.gq";
 
 
     // Set the email subject.
@@ -36,6 +36,6 @@
     mail($to, $subject, $email_content, $email_headers);
     
     // Redireziona alla pagina index.html con un codice di success
-    header("Location: http://omnifood.startae14.dx.am/index.php?success=1#form");
+    header("Location: http://startae14.gq/omnifood/index.php?success=1#form");
 
 ?>

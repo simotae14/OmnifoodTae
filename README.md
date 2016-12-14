@@ -5,4 +5,4 @@ https://simotae14.github.io/OmnifoodTae/
 
 con form funzionante
 
-http://omnifood.startae14.dx.am/index.php
+http://startae14.gq/omnifood/index.php
