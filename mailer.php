@@ -22,6 +22,9 @@
     // Set the email subject.
     $subject = "New contact from $name";
 
+    // Setto oggetto risposta
+    $subjectConf = "omnifood confirmation";
+
     // Build the email content.
     $email_content = "Name: $name\n";
     $email_content .= "Email: $email\n\n";
@@ -32,8 +35,14 @@
     $mail_headers .= "Reply-To: " .  $email . "\r\n";
     $mail_headers .= "X-Mailer: PHP/" . phpversion();
     
+    // Build content response
+    $email_content_res = "Grazie per esserti registrato! Ci sentiamo presto.";
+
     // Invia l'email.
     mail($to, $subject, $email_content, $email_headers);
+    // Invia Risposta
+    mail($email, $subjectConf, $email_content_res, $email_headers);
+
     
     // Redireziona alla pagina index.html con un codice di success
     header("Location: http://startae14.gq/omnifood/index.php?success=1#form");
